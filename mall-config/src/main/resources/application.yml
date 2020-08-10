@@ -10,9 +10,9 @@ spring:
       server:
         native: #本地仓库存储
           search-locations: classpath:/config/{application}
-        git: #Git仓库存储
-          uri: https://gitee.com/macrozheng/mall-config.git
-          username: macro
-          password: 123456
+        git: #Git仓库存
+          uri: https://github.com/CYH1000/mall-swarm/edit/master/mall-config.git
+          username: CYH1000
+          password: Aa11200401
           clone-on-start: true
           search-paths: '{application}'
